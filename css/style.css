@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+@media (min-width: 992px){
+
+	.content {
+		column-count: 3;
+	}
+
+	.title {
+		text-transform: capitalize;
+		text-align: center;
+		font-family: sans-serif;
+		padding: 30px 20px 55px 20px;
+	}
+
+	.first, .second, .third {
+		border-style: solid;
+		border-width: 1px;
+		padding: 0px 0px 5px 5px;
+		margin: 5px;
+		text-align: center;
+		background-color: grey;
+	}
+	.content h3 {
+		float: right;
+		padding: 0px;
+		margin: 0px;
+		border-style: solid;
+		border-width: 1px;
+		text-transform: capitalize;
+	}
+	.one, .two, .three {
+		padding-top: 30px;
+		margin: 0px;
+	}
+	h3 {
+		width: 40%;
+	}
+
+	#chicken {
+		background-color: #ee0055;
+	}
+
+	#beef {
+		background-color: red;
+	}
+
+	#sushi {
+		background-color: yellow;
+	}
+}
